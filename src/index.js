@@ -74,7 +74,7 @@ function Menu() {
 
 function Footer() {
   return (
-    <Footer>{new Date().toLocaleDateString()}. We're currently open</Footer>
+    <footer>{new Date().toLocaleDateString()}. We're currently open</footer>
   );
 }
 
